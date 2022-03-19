@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root{
+    --cor00: #a3a3a3;
+    --cor01: #ffffff;
+    --cor02: #f74f0c;
+    --cor03: #d8d8d8; 
+    --cor04: #4400ff;
+}
+    
+#logo1{
+    width: 285px;
+    height: 75px;
+}
+
+#nomes{ 
+    font-size: 1.6rem;
+    font-style: bolder;
+}
+
+#trailer {
+    padding-top: 90px;
+}
+
+/*==============HEADER==============*/
+
+header .container {
+    max-width: 1920px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo {
+    margin: 0 5px;
+}
+
+header .container .icons {
+    color: var(--cor00);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+header .container .icons ion-icon {
+    cursor: pointer;
+    color: var(--cor01);
+}
+
+/*==============MAIN==============*/
+
+main .container {
+    max-width: 1920px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container .menu_lateral {
+    margin-top: 120px;
+    padding: 0px 20px;
+}
+
+
+main .container .menu_lateral ul li{
+    list-style: none;
+    padding: 30px 0px;
+}
+
+main .container .menu_lateral ul li a{
+    text-decoration: none;
+    color: var(--cor00);
+    font-size: 1.2rem;
+    text-shadow: -10px -5px 3px rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+}
+
+main .container .menu_lateral ul li a:hover{
+    color: var(--cor01);
+    font-size: 1.5rem;
+    text-decoration: underline var(--cor02);
+}
+
+main .container .principal{
+    width: 40%;
+    height: 30vh;
+    text-transform: uppercase;
+    color: var(--cor01);
+    text-align: right;
+    text-shadow: -10px -5px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 100px;
+}
+
+main .container .principal h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+main .container .principal h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .container .principal h3 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main .container .principal p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+main .container .principal .links a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: var(--cor00);
+    font-size: 1.2rem;
+    text-shadow: -10px -5px 3px rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+}
+
+main .container .imagem {
+    width: 35%;
+    height: 70vh;
+    margin-top: 70px;
+    text-align: center;
+}
+
+main .container .imagem img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main .container .principal .lista {
+    list-style: none;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 130px;
+}
+
+main .container .principal .links a:hover{
+    color: var(--cor04);
+    font-size: 1.5rem;
+    text-decoration: underline var(--cor02);
+}
+
+/*==============Responsividade==============*/
+
+@media screen and (max-width: 1014px) {
+    main .container {
+        justify-content: space-between;
+    }
+    main .container .menu_lateral ul li a{
+        font-size: 1rem;
+    }
+    main .container .principal{
+        width: 30%;
+        height: 20vh;
+        text-align: center;
+    }
+    main .container .principal h1{
+        font-size: 2rem;
+    }
+    main .container .principal h2{
+        font-size: 1rem;
+    }
+    main .container .principal h3{
+        font-size: 1rem;
+    }
+    main .container .principal p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,35 @@
+Objetivo 
+
+O jogo eletrônico é desenvolvido em bi dimensão (2D), onde o jogador 
+controla seu personagem customizável. O jogador poderá seguir a carreira de técnico de informática, 
+enfrentando desafios do cotidiano dessa profissão. 
+
+Mapas 
+
+Com opções personalizadas e exclusivas para o usuário. 
+
+Conquistas 
+
+Com intuito de testar a criatividade e conhecimentos do jogador 
+
+Avatares 
+
+
+
+
+===========================
+
+História 
+
+Um jovem decide começar sua carreira em informática como Service Desk, 
+aprender conceitos sobre hardware e software. Seu objetivo é cumprir seus deveres com o 
+cliente, manter uma boa relação com seus colegas e subir de cargo. 
+
+ 
+
+Gameplay 
+
+O jogador receberá chamados com problemas para solucionar, o objetivo do 
+jogador é resolver esses problemas. Sendo eles, instalação de sistemas operacionais
+em máquinas, montagem e manutenção de computadores. O jogador poderá selecionar o nível de 
+dificuldade. Tudo isso usando seus conhecimentos técnicos do seu escritório personalizado, para realizar os trabalhos que chegam até você. 
