@@ -26,10 +26,6 @@
     font-style: bolder;
 }
 
-#trailer {
-    padding-top: 90px;
-}
-
 /*==============HEADER==============*/
 
 header .container {
@@ -99,7 +95,8 @@ main .container .principal{
     text-align: right;
     text-shadow: -10px -5px 3px rgba(0, 0, 0, 0.8);
     margin-top: 100px;
-}
+    margin-bottom: 20px;
+} 
 
 main .container .principal h1{
     font-size: 3rem;
@@ -131,10 +128,16 @@ main .container .principal .links a{
     transition: 0.8s;
 }
 
-main .container .imagem {
+main .container .imagem-1 {
     width: 35%;
     height: 70vh;
     margin-top: 70px;
+    text-align: center;
+}
+
+main .container .imagem {
+    width: 35%;
+    height: 70vh;
     text-align: center;
 }
 
@@ -142,7 +145,13 @@ main .container .imagem img{
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
+} 
+
+main .container .imagem-1 img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+} 
 
 main .container .principal .lista {
     list-style: none;
@@ -152,15 +161,18 @@ main .container .principal .lista {
     margin-left: 130px;
 }
 
-main .container .principal .links a:hover{
-    color: var(--cor04);
-    font-size: 1.5rem;
-    text-decoration: underline var(--cor02);
+main .container .engloba {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 /*==============Responsividade==============*/
 
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 1280px) {
     main .container {
         justify-content: space-between;
     }
@@ -168,21 +180,40 @@ main .container .principal .links a:hover{
         font-size: 1rem;
     }
     main .container .principal{
-        width: 30%;
-        height: 20vh;
+        width: 40%;
+        height: 25vh;
         text-align: center;
     }
+    main .container .principal .download{
+        margin-top: 120px;
+    }
+    main .container .principal .feedback{
+        margin-top: 120px;
+    }
     main .container .principal h1{
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
     main .container .principal h2{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     main .container .principal h3{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     main .container .principal p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 200;
+    }
+    main .container .imagem {
+        width: 35%;
+        height: 70vh;
+        margin-right: 30px;
+        text-align: center;
+    }
+    main .container .imagem-1 {
+        width: 35%;
+        height: 70vh;
+        margin-top: 150px;
+        margin-right: 20px;
+        text-align: center;
     }
 }
